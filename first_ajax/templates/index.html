@@ -6,7 +6,17 @@
     {% load static %}
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js"></script>
     <script type="text/javascript" src="{% static 'js/main.js' %}"> </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   </head>
   <body>
+    <button id="button_root">Run AJAX Request to Root</button>
+    <button id="button_ping_pong"> "Run AJAX Request to Ping/Pong"</button>
+    <button id="button_count">Run AJAX Request to Count</button>
+    <button id="button_time">Run AJAX Request to Time</button>  
+    <button id="button_car">Run AJAX Request to A Car</button>
+    <div id="ping_content"></div>
+    <div id="count_content"></div>
+    <div id="time_content"></div>
+    <div id="car_content"></div>
   </body>
 </html>
